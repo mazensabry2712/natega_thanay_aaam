@@ -110,10 +110,11 @@ header p{
 }
 
 /* fixed column widths so everything lines up */
-.col-seat{ width:18%; }
-.col-school{ width:38%; }
-.col-dir{ width:14%; }
-.col-result{ width:30%; }
+.col-seat{ width:16%; }
+.col-school{ width:34%; }
+.col-dir{ width:12%; }
+.col-pct{ width:14%; }
+.col-result{ width:24%; }
 
 .results-table thead th{
   text-align:right;
@@ -170,6 +171,12 @@ header p{
 }
 .dir-cell{
   color:var(--text-dim);
+}
+.pct-cell{
+  color:var(--text-dim);
+  font-weight:600;
+  direction:ltr;
+  text-align:right;
 }
 .branch-cell{
   color:var(--text-dim);
